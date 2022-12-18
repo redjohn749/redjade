@@ -1,0 +1,121 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+    height: 2000px;
+    font-family: 'mamad';
+}
+@font-face {
+    font-family: 'mamad';
+    src: url(../fonts/fonts/WebYekan.woff);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type:none ;
+}
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color: #182E3A ;
+}
+.menu .right{
+float: right;
+}
+.menu .right ul li a{
+ line-height: 60px;
+ color: #384E58;
+ padding: 10px;
+}
+.menu .right ul li a:hover{
+    line-height: 60px;
+    color: #6CA447;
+    padding: 10px;
+   }
+.menu  ul li{
+ display: inline-block;
+}
+.menu .left{
+    float: left;
+    padding: 10px;
+}
+.menu .left ul li a{
+    color: #384E58;
+}
+.menu .left ul li a:hover{
+    color: #6CA447;
+}
+
+
+
+.menu2{
+    width: 100%;
+    height: 60px;
+    background-color:white;
+}
+.menu2 .right2{
+float: right;
+}
+.menu2 .right2 ul li a{
+ line-height: 60px;
+ color: rgb(17, 15, 15);
+ padding: 10px;
+}
+.menu2 .right2 ul li a:hover{
+    line-height: 60px;
+    color: #6CA447;
+    padding: 10px;
+   }
+.menu2  ul li{
+ display: inline-block;
+}
+.menu2 .left2{
+    float: left;
+    padding: 16px ;
+}
+.gallery{
+    width: 1008px;
+    height: 504px;
+    margin: 20px auto;
+   
+}
+.item{
+    float: left;
+    margin: -6px;
+    cursor: pointer;
+}
+p{
+  text-align: center;
+  padding: 14px;
+}
+.information{
+    width: 1170px;
+    height: 500px;
+    margin: 0px auto;
+    display: flex;
+    gap: 32px;
+}
+.information .infitem{
+    background-color: #f5f6fa;
+ float: right;
+}
+.information .infitem p{
+    color: #6CA447;
+    float: right;
+}
+.information .infitem .paragraf1 p{
+    color: black;
+    
+}
+.information .infitem .paragraf2 p{
+    color: black;
+    
+}
+.information .infitem .paragraf3 p{
+    color: black;
+    
+}
